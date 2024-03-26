@@ -48,14 +48,19 @@ function App() {
 
   const playSong = (id) => {
     const song = allSongs.find((song) => song.id === id);
-    audio.src = song.src;
-    audio.title = song.title;
-    audio.currentTime = 0;
-    audio.play();
-    setIsPlaying(true);
-    setCurrentTitle(song.title);
-    setCurrentArtist(song.artist);
-    setCurrentSongIndex(id); // Update current song index
+    if(currentTitle === song.title){
+      audio.play();
+      setIsPlaying(true);
+    } else{
+      audio.src = song.src;
+      audio.title = song.title;
+      audio.currentTime = 0;
+      audio.play();
+      setIsPlaying(true);
+      setCurrentTitle(song.title);
+      setCurrentArtist(song.artist);
+      setCurrentSongIndex(id); // Update current song index
+    }
 
   };
 
