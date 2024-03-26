@@ -1,22 +1,17 @@
 import React, { useState } from 'react';
 import './App.css';
 import Keys from './assets/keys.png'
+import GroupOne from './assets/Group-One.mp3'
 
 const allSongs = [
   {
     id: 0,
-    title: "Scratching The Surface",
-    artist: "Quincy Larson",
-    duration: "4:25",
-    src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/scratching-the-surface.mp3",
+    title: "Perkins Recordings",
+    artist: "Group One",
+    duration: "23:06",
+    src: {GroupOne},
   },
-  {
-    id: 1,
-    title: "Can't Stay Down",
-    artist: "Quincy Larson",
-    duration: "4:15",
-    src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/cant-stay-down.mp3",
-  },
+
   // Add more songs as needed
 ];
 
