@@ -190,6 +190,9 @@ button:focus,
   padding: 5px;
 }
 
+.playlist-song-duration{
+  margin-left: 10px;
+}
 [aria-current="true"] {
   background-color: var(--background-color);
   border-radius: 5px;

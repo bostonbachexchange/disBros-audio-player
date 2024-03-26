@@ -9,7 +9,7 @@ const allSongs = [
     title: "Perkins Recordings",
     artist: "Group One",
     duration: "23:06",
-    src: {GroupOne},
+    src: GroupOne,
   },
 
   // Add more songs as needed
