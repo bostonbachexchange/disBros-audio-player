@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/disBros-audio-player/static/css/main.e9532389.css",
+    "main.css": "/disBros-audio-player/static/css/main.28dce698.css",
     "main.js": "/disBros-audio-player/static/js/main.21a4c293.js",
     "static/js/453.55e1c729.chunk.js": "/disBros-audio-player/static/js/453.55e1c729.chunk.js",
     "static/media/Group-One.mp3": "/disBros-audio-player/static/media/Group-One.1f631f564004acb6709f.mp3",
     "static/media/keys.png": "/disBros-audio-player/static/media/keys.6766630cfa65a4f38c6a.png",
     "index.html": "/disBros-audio-player/index.html",
-    "main.e9532389.css.map": "/disBros-audio-player/static/css/main.e9532389.css.map",
+    "main.28dce698.css.map": "/disBros-audio-player/static/css/main.28dce698.css.map",
     "main.21a4c293.js.map": "/disBros-audio-player/static/js/main.21a4c293.js.map",
     "453.55e1c729.chunk.js.map": "/disBros-audio-player/static/js/453.55e1c729.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9532389.css",
+    "static/css/main.28dce698.css",
     "static/js/main.21a4c293.js"
   ]
 }
